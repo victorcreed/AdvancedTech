@@ -1,0 +1,104 @@
+/*
+Syntax error: Expected a color. Got: transparent
+        on line 3280 of /home/doctork/Documents/projects/AdvancedTech2/app/assets/stylesheets/bootstrap_style/bootstrap.css.scss
+
+3275:   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+3276:   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+3277:   background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+3278:   background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+3279:   background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+3280:   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+3281:   -webkit-background-size: 40px 40px;
+3282:   -moz-background-size: 40px 40px;
+3283:   -o-background-size: 40px 40px;
+3284:   background-size: 40px 40px;
+3285: }
+
+Backtrace:
+/home/doctork/Documents/projects/AdvancedTech2/app/assets/stylesheets/bootstrap_style/bootstrap.css.scss:3280
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/compass-0.11.7/lib/compass/sass_extensions/functions/gradient_support.rb:12:in `initialize'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/compass-0.11.7/lib/compass/sass_extensions/functions/gradient_support.rb:236:in `new'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/compass-0.11.7/lib/compass/sass_extensions/functions/gradient_support.rb:236:in `block in color_stops'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/compass-0.11.7/lib/compass/sass_extensions/functions/gradient_support.rb:229:in `map'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/compass-0.11.7/lib/compass/sass_extensions/functions/gradient_support.rb:229:in `color_stops'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/compass-0.11.7/lib/compass/sass_extensions/functions/gradient_support.rb:285:in `linear_gradient'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/script/funcall.rb:88:in `_perform'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/script/node.rb:40:in `perform'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:216:in `visit_prop'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:238:in `visit_rule'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/tree/root_node.rb:20:in `render'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/engine.rb:299:in `_render'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/engine.rb:247:in `block in render'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/util.rb:310:in `silence_sass_warnings'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/engine.rb:247:in `render'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:200:in `each'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/plugin.rb:81:in `update_stylesheets'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/plugin.rb:54:in `check_for_updates'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/sass-3.1.15/lib/sass/plugin/rack.rb:51:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/activerecord-3.2.0/lib/active_record/query_cache.rb:64:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/activerecord-3.2.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/activesupport-3.2.0/lib/active_support/callbacks.rb:405:in `_run__563938109532299719__call__2717830911131572809__callbacks'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/activesupport-3.2.0/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/activesupport-3.2.0/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/activesupport-3.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/railties-3.2.0/lib/rails/rack/logger.rb:26:in `call_app'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/railties-3.2.0/lib/rails/rack/logger.rb:16:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/activesupport-3.2.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/actionpack-3.2.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/railties-3.2.0/lib/rails/engine.rb:479:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/railties-3.2.0/lib/rails/application.rb:220:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/railties-3.2.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/doctork/.rvm/gems/ruby-1.9.3-p125@3.2/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/doctork/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/doctork/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/doctork/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Expected a color. Got: transparent\A         on line 3280 of /home/doctork/Documents/projects/AdvancedTech2/app/assets/stylesheets/bootstrap_style/bootstrap.css.scss\A \A 3275:   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));\A 3276:   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\A 3277:   background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\A 3278:   background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\A 3279:   background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\A 3280:   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\A 3281:   -webkit-background-size: 40px 40px;\A 3282:   -moz-background-size: 40px 40px;\A 3283:   -o-background-size: 40px 40px;\A 3284:   background-size: 40px 40px;\A 3285: }"; }
